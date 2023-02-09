@@ -38,8 +38,8 @@ spec:
       - env:
         - name: MONGO_URI
           value: mongodb://mongo:27017
-        image: zegit/student_service
-        name: service
+        image: zegit
+        name: zegit/student_service
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
