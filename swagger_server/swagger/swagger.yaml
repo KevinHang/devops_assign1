@@ -58,6 +58,10 @@ paths:
       responses:
         "200":
           description: student deleted
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Student'
         "400":
           description: invalid ID
         "404":
