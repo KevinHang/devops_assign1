@@ -27,7 +27,7 @@ http://localhost:8080/KevinHang/tutorial/1.0.0/ui/
 Your Swagger definition lives here:
 
 ```
-http://localhost:8080/KevinHang/tutorial/1.0.0/swagger.json
+http://localhost:8080/tutorial/1.0.0/swagger.json
 ```
 
 To launch the integration tests, use tox:
